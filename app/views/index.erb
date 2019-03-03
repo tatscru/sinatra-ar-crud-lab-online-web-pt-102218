@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <h1> Index Articles </h1>
+      <% @articles.each do |titles| %>
+        <h2><%= article.title%></h2>
+        <h3><%= article.content%></h3>
+      <% end %>
+  </body>
+</html>
+
+<!--#you have to list name + content because that is what is included in the new portion-->
