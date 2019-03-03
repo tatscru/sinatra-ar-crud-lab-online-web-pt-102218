@@ -18,7 +18,6 @@ class ApplicationController < Sinatra::Base
 
   get '/articles/new' do
     @article = Article.new
-    redirect to '/articles'
     erb :new
   end
 
