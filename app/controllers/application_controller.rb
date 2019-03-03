@@ -14,10 +14,10 @@ class ApplicationController < Sinatra::Base
   end 
 
     
-  # post '/articles' do
-  #   Article.create(params[:title], content: params[:content])
+  post '/articles' do
+    Article.create(params[:title], content: params[:content])
     
-  # end
+  end
 
   # end
 
